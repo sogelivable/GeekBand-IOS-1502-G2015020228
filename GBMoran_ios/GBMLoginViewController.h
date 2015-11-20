@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GBMLoginRequest.h"
 
-@interface GBMLoginViewController : UIViewController<UITextFieldDelegate>
+@interface GBMLoginViewController : UIViewController<UITextFieldDelegate,GBMLoginRequestDelegate>
+
+@property (nonatomic, strong) GBMLoginRequest *loginRequest;
 @property (weak, nonatomic) IBOutlet UITextField *emailTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 - (IBAction)loginButtonClicked:(id)sender;

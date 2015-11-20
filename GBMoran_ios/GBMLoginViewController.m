@@ -7,6 +7,8 @@
 //
 
 #import "GBMLoginViewController.h"
+#import "YongUserModel.h"
+#import "GBMLoginRequest.h"
 
 @implementation GBMLoginViewController
 
@@ -62,7 +64,22 @@
     NSString *email = self.emailTextField.text;
     NSString *password = self.passwordTextField.text;
     NSString *gbid = @"CSYZ";
+    self.loginRequest = [[GBMLoginRequest alloc]init];
+    [self.loginRequest sendLoginRequestWithEmail:email password:password gbid:gbid delegate:self];
     NSLog(@"email:%@",email);
+}
+
+#pragma mark - gmloginrequesrtdelegate methods
+-(void)loginRequestSuccess:(GBMLoginRequest *)request user:(YongUserModel *)user{
+    if ([user.loginReturnMessage isEqualToString:@"Login success"]) {
+        NSLog(@"go to index page...");
+    }else{
+        NSLog(@"server error:%@",user.loginReturnMessage);
+    }
+}
+
+-(void)loginRequestFailed:(GBMLoginRequest *)request error:(NSError *)error{
+    NSLog(@"login failed : %@", error);
 }
 
 @end

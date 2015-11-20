@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "YongUserModel.h"
 
 @class GBMLoginRequest;
 
 @protocol GBMLoginRequestDelegate <NSObject>
 
--(void)loginRequestSuccess:(GBMLoginRequest *)request user:(NSError *)user;
+-(void)loginRequestSuccess:(GBMLoginRequest *)request user:(YongUserModel *)user;
 -(void)loginRequestFailed:(GBMLoginRequest *)request error:(NSError *)error;
 
 @end

@@ -17,6 +17,8 @@
 		251D1D531BFC6D9500C08AB9 /* GBMLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D521BFC6D9500C08AB9 /* GBMLoginRequest.m */; };
 		251D1D631BFC78C800C08AB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D621BFC78C800C08AB9 /* Images.xcassets */; };
 		251D1D661BFDC98200C08AB9 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D651BFDC98200C08AB9 /* BLMultipartForm.m */; };
+		251D1D691BFF07B200C08AB9 /* YongLoginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D681BFF07B200C08AB9 /* YongLoginParser.m */; };
+		251D1D6C1BFF083D00C08AB9 /* YongUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		251D1D621BFC78C800C08AB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		251D1D641BFDC98200C08AB9 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
 		251D1D651BFDC98200C08AB9 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
+		251D1D671BFF07B200C08AB9 /* YongLoginParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongLoginParser.h; sourceTree = "<group>"; };
+		251D1D681BFF07B200C08AB9 /* YongLoginParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongLoginParser.m; sourceTree = "<group>"; };
+		251D1D6A1BFF083D00C08AB9 /* YongUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongUserModel.h; sourceTree = "<group>"; };
+		251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongUserModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +258,8 @@
 		251D1C9E1BFB0D0F00C08AB9 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				251D1D6A1BFF083D00C08AB9 /* YongUserModel.h */,
+				251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */,
 			);
 			name = User;
 			sourceTree = "<group>";
@@ -283,6 +291,8 @@
 		251D1D541BFC6D9A00C08AB9 /* Parsers */ = {
 			isa = PBXGroup;
 			children = (
+				251D1D671BFF07B200C08AB9 /* YongLoginParser.h */,
+				251D1D681BFF07B200C08AB9 /* YongLoginParser.m */,
 			);
 			name = Parsers;
 			sourceTree = "<group>";
@@ -396,12 +406,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				251D1C721BFB0C2C00C08AB9 /* SecondViewController.m in Sources */,
+				251D1D6C1BFF083D00C08AB9 /* YongUserModel.m in Sources */,
 				251D1C6C1BFB0C2C00C08AB9 /* AppDelegate.m in Sources */,
 				251D1D531BFC6D9500C08AB9 /* GBMLoginRequest.m in Sources */,
 				251D1D661BFDC98200C08AB9 /* BLMultipartForm.m in Sources */,
 				251D1D4F1BFB18AE00C08AB9 /* GBMLoginViewController.m in Sources */,
 				251D1C6F1BFB0C2C00C08AB9 /* FirstViewController.m in Sources */,
 				251D1C691BFB0C2C00C08AB9 /* main.m in Sources */,
+				251D1D691BFF07B200C08AB9 /* YongLoginParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
