@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		251D1C691BFB0C2C00C08AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1C681BFB0C2C00C08AB9 /* main.m */; };
-		251D1C6C1BFB0C2C00C08AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1C6B1BFB0C2C00C08AB9 /* AppDelegate.m */; };
-		251D1C6F1BFB0C2C00C08AB9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1C6E1BFB0C2C00C08AB9 /* FirstViewController.m */; };
-		251D1C721BFB0C2C00C08AB9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1C711BFB0C2C00C08AB9 /* SecondViewController.m */; };
 		251D1C861BFB0C2C00C08AB9 /* GBMoran_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1C851BFB0C2C00C08AB9 /* GBMoran_iosTests.m */; };
-		251D1D4C1BFB161900C08AB9 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D4B1BFB161900C08AB9 /* LoginAndRegister.storyboard */; };
-		251D1D4F1BFB18AE00C08AB9 /* GBMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D4E1BFB18AE00C08AB9 /* GBMLoginViewController.m */; };
-		251D1D531BFC6D9500C08AB9 /* GBMLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D521BFC6D9500C08AB9 /* GBMLoginRequest.m */; };
-		251D1D661BFDC98200C08AB9 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D651BFDC98200C08AB9 /* BLMultipartForm.m */; };
-		251D1D691BFF07B200C08AB9 /* YongLoginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D681BFF07B200C08AB9 /* YongLoginParser.m */; };
-		251D1D6C1BFF083D00C08AB9 /* YongUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */; };
-		251D1D711BFF0F6E00C08AB9 /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D6F1BFF0F6E00C08AB9 /* Main.xcassets */; };
-		251D1D731BFF138700C08AB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D721BFF138700C08AB9 /* Default-568h@2x.png */; };
+		251D1D951BFF186800C08AB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D771BFF186800C08AB9 /* AppDelegate.m */; };
+		251D1D961BFF186800C08AB9 /* GBMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D7B1BFF186800C08AB9 /* GBMLoginViewController.m */; };
+		251D1D971BFF186800C08AB9 /* YongUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D811BFF186800C08AB9 /* YongUserModel.m */; };
+		251D1D981BFF186800C08AB9 /* YongLoginParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D841BFF186800C08AB9 /* YongLoginParser.m */; };
+		251D1D991BFF186800C08AB9 /* GBMLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D891BFF186800C08AB9 /* GBMLoginRequest.m */; };
+		251D1D9A1BFF186800C08AB9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D8C1BFF186800C08AB9 /* Info.plist */; };
+		251D1D9B1BFF186800C08AB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D8D1BFF186800C08AB9 /* main.m */; };
+		251D1D9C1BFF186800C08AB9 /* BLMultipartForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 251D1D901BFF186800C08AB9 /* BLMultipartForm.m */; };
+		251D1D9D1BFF186800C08AB9 /* LoginAndRegister.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D941BFF186800C08AB9 /* LoginAndRegister.storyboard */; };
+		251D1D9F1BFF18DD00C08AB9 /* Main.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 251D1D9E1BFF18DD00C08AB9 /* Main.xcassets */; };
+		251D1DA11BFF190700C08AB9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 251D1DA01BFF190700C08AB9 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,30 +33,26 @@
 
 /* Begin PBXFileReference section */
 		251D1C631BFB0C2B00C08AB9 /* GBMoran_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBMoran_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		251D1C671BFB0C2C00C08AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		251D1C681BFB0C2C00C08AB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		251D1C6A1BFB0C2C00C08AB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		251D1C6B1BFB0C2C00C08AB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		251D1C6D1BFB0C2C00C08AB9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		251D1C6E1BFB0C2C00C08AB9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		251D1C701BFB0C2C00C08AB9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		251D1C711BFB0C2C00C08AB9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		251D1C7F1BFB0C2C00C08AB9 /* GBMoran_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBMoran_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		251D1C841BFB0C2C00C08AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		251D1C851BFB0C2C00C08AB9 /* GBMoran_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBMoran_iosTests.m; sourceTree = "<group>"; };
-		251D1D4B1BFB161900C08AB9 /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
-		251D1D4D1BFB18AE00C08AB9 /* GBMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMLoginViewController.h; sourceTree = "<group>"; };
-		251D1D4E1BFB18AE00C08AB9 /* GBMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMLoginViewController.m; sourceTree = "<group>"; };
-		251D1D511BFC6D9500C08AB9 /* GBMLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMLoginRequest.h; sourceTree = "<group>"; };
-		251D1D521BFC6D9500C08AB9 /* GBMLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMLoginRequest.m; sourceTree = "<group>"; };
-		251D1D641BFDC98200C08AB9 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
-		251D1D651BFDC98200C08AB9 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
-		251D1D671BFF07B200C08AB9 /* YongLoginParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongLoginParser.h; sourceTree = "<group>"; };
-		251D1D681BFF07B200C08AB9 /* YongLoginParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongLoginParser.m; sourceTree = "<group>"; };
-		251D1D6A1BFF083D00C08AB9 /* YongUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongUserModel.h; sourceTree = "<group>"; };
-		251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongUserModel.m; sourceTree = "<group>"; };
-		251D1D6F1BFF0F6E00C08AB9 /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
-		251D1D721BFF138700C08AB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		251D1D761BFF186800C08AB9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		251D1D771BFF186800C08AB9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		251D1D7A1BFF186800C08AB9 /* GBMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMLoginViewController.h; sourceTree = "<group>"; };
+		251D1D7B1BFF186800C08AB9 /* GBMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMLoginViewController.m; sourceTree = "<group>"; };
+		251D1D801BFF186800C08AB9 /* YongUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongUserModel.h; sourceTree = "<group>"; };
+		251D1D811BFF186800C08AB9 /* YongUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongUserModel.m; sourceTree = "<group>"; };
+		251D1D831BFF186800C08AB9 /* YongLoginParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YongLoginParser.h; sourceTree = "<group>"; };
+		251D1D841BFF186800C08AB9 /* YongLoginParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YongLoginParser.m; sourceTree = "<group>"; };
+		251D1D881BFF186800C08AB9 /* GBMLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBMLoginRequest.h; sourceTree = "<group>"; };
+		251D1D891BFF186800C08AB9 /* GBMLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBMLoginRequest.m; sourceTree = "<group>"; };
+		251D1D8C1BFF186800C08AB9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		251D1D8D1BFF186800C08AB9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		251D1D8F1BFF186800C08AB9 /* BLMultipartForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMultipartForm.h; sourceTree = "<group>"; };
+		251D1D901BFF186800C08AB9 /* BLMultipartForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMultipartForm.m; sourceTree = "<group>"; };
+		251D1D941BFF186800C08AB9 /* LoginAndRegister.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginAndRegister.storyboard; sourceTree = "<group>"; };
+		251D1D9E1BFF18DD00C08AB9 /* Main.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Main.xcassets; sourceTree = "<group>"; };
+		251D1DA01BFF190700C08AB9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +76,8 @@
 		251D1C5A1BFB0C2B00C08AB9 = {
 			isa = PBXGroup;
 			children = (
-				251D1D721BFF138700C08AB9 /* Default-568h@2x.png */,
-				251D1C651BFB0C2B00C08AB9 /* GBMoran_ios */,
+				251D1DA01BFF190700C08AB9 /* Default-568h@2x.png */,
+				251D1D741BFF186800C08AB9 /* GBMoran_ios */,
 				251D1C821BFB0C2C00C08AB9 /* GBMoran_iosTests */,
 				251D1C641BFB0C2B00C08AB9 /* Products */,
 			);
@@ -95,37 +90,6 @@
 				251D1C7F1BFB0C2C00C08AB9 /* GBMoran_iosTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		251D1C651BFB0C2B00C08AB9 /* GBMoran_ios */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D6D1BFF0F6E00C08AB9 /* Resources */,
-				251D1D551BFC6DA600C08AB9 /* Utilties */,
-				251D1D541BFC6D9A00C08AB9 /* Parsers */,
-				251D1D501BFC6D4C00C08AB9 /* Requests */,
-				251D1C8F1BFB0C3A00C08AB9 /* Controllers */,
-				251D1C901BFB0C5000C08AB9 /* Views */,
-				251D1C961BFB0C9700C08AB9 /* APP */,
-				251D1C931BFB0C6B00C08AB9 /* Public */,
-				251D1C921BFB0C6000C08AB9 /* LIbrary */,
-				251D1C911BFB0C5900C08AB9 /* Models */,
-				251D1C6D1BFB0C2C00C08AB9 /* FirstViewController.h */,
-				251D1C6E1BFB0C2C00C08AB9 /* FirstViewController.m */,
-				251D1C701BFB0C2C00C08AB9 /* SecondViewController.h */,
-				251D1C711BFB0C2C00C08AB9 /* SecondViewController.m */,
-				251D1C661BFB0C2B00C08AB9 /* Supporting Files */,
-			);
-			path = GBMoran_ios;
-			sourceTree = "<group>";
-		};
-		251D1C661BFB0C2B00C08AB9 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				251D1C671BFB0C2C00C08AB9 /* Info.plist */,
-				251D1C681BFB0C2C00C08AB9 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		251D1C821BFB0C2C00C08AB9 /* GBMoran_iosTests */ = {
@@ -145,168 +109,163 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		251D1C8F1BFB0C3A00C08AB9 /* Controllers */ = {
+		251D1D741BFF186800C08AB9 /* GBMoran_ios */ = {
 			isa = PBXGroup;
 			children = (
-				251D1C991BFB0CCB00C08AB9 /* Square */,
-				251D1C981BFB0CC500C08AB9 /* My */,
-				251D1C971BFB0CB000C08AB9 /* LoginAndRegister */,
+				251D1D751BFF186800C08AB9 /* APP */,
+				251D1D781BFF186800C08AB9 /* Controllers */,
+				251D1D7C1BFF186800C08AB9 /* Library */,
+				251D1D7D1BFF186800C08AB9 /* Models */,
+				251D1D821BFF186800C08AB9 /* Parsers */,
+				251D1D851BFF186800C08AB9 /* Public */,
+				251D1D871BFF186800C08AB9 /* Requests */,
+				251D1D8A1BFF186800C08AB9 /* Resources */,
+				251D1D8B1BFF186800C08AB9 /* Supporting Files */,
+				251D1D8E1BFF186800C08AB9 /* Untities */,
+				251D1D911BFF186800C08AB9 /* Views */,
 			);
-			name = Controllers;
+			path = GBMoran_ios;
 			sourceTree = "<group>";
 		};
-		251D1C901BFB0C5000C08AB9 /* Views */ = {
+		251D1D751BFF186800C08AB9 /* APP */ = {
 			isa = PBXGroup;
 			children = (
-				251D1D4A1BFB15CB00C08AB9 /* LoginAndRegister */,
-				251D1C9B1BFB0CEA00C08AB9 /* Cell */,
-				251D1C9A1BFB0CDF00C08AB9 /* Storyboard */,
+				251D1D761BFF186800C08AB9 /* AppDelegate.h */,
+				251D1D771BFF186800C08AB9 /* AppDelegate.m */,
 			);
-			name = Views;
+			path = APP;
 			sourceTree = "<group>";
 		};
-		251D1C911BFB0C5900C08AB9 /* Models */ = {
+		251D1D781BFF186800C08AB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				251D1C9E1BFB0D0F00C08AB9 /* User */,
-				251D1C9D1BFB0D0300C08AB9 /* Square */,
-				251D1C9C1BFB0CFB00C08AB9 /* Picture */,
+				251D1D791BFF186800C08AB9 /* LoginAndRegister */,
 			);
-			name = Models;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		251D1C921BFB0C6000C08AB9 /* LIbrary */ = {
+		251D1D791BFF186800C08AB9 /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
+				251D1D7A1BFF186800C08AB9 /* GBMLoginViewController.h */,
+				251D1D7B1BFF186800C08AB9 /* GBMLoginViewController.m */,
 			);
-			name = LIbrary;
+			path = LoginAndRegister;
 			sourceTree = "<group>";
 		};
-		251D1C931BFB0C6B00C08AB9 /* Public */ = {
-			isa = PBXGroup;
-			children = (
-				251D1C9F1BFB0D2400C08AB9 /* Network */,
-			);
-			name = Public;
-			sourceTree = "<group>";
-		};
-		251D1C961BFB0C9700C08AB9 /* APP */ = {
-			isa = PBXGroup;
-			children = (
-				251D1C6A1BFB0C2C00C08AB9 /* AppDelegate.h */,
-				251D1C6B1BFB0C2C00C08AB9 /* AppDelegate.m */,
-			);
-			name = APP;
-			sourceTree = "<group>";
-		};
-		251D1C971BFB0CB000C08AB9 /* LoginAndRegister */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D4D1BFB18AE00C08AB9 /* GBMLoginViewController.h */,
-				251D1D4E1BFB18AE00C08AB9 /* GBMLoginViewController.m */,
-			);
-			name = LoginAndRegister;
-			sourceTree = "<group>";
-		};
-		251D1C981BFB0CC500C08AB9 /* My */ = {
+		251D1D7C1BFF186800C08AB9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = My;
+			path = Library;
 			sourceTree = "<group>";
 		};
-		251D1C991BFB0CCB00C08AB9 /* Square */ = {
+		251D1D7D1BFF186800C08AB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D7E1BFF186800C08AB9 /* Picture */,
+				251D1D7F1BFF186800C08AB9 /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		251D1D7E1BFF186800C08AB9 /* Picture */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Square;
+			path = Picture;
 			sourceTree = "<group>";
 		};
-		251D1C9A1BFB0CDF00C08AB9 /* Storyboard */ = {
+		251D1D7F1BFF186800C08AB9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D801BFF186800C08AB9 /* YongUserModel.h */,
+				251D1D811BFF186800C08AB9 /* YongUserModel.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		251D1D821BFF186800C08AB9 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D831BFF186800C08AB9 /* YongLoginParser.h */,
+				251D1D841BFF186800C08AB9 /* YongLoginParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		251D1D851BFF186800C08AB9 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D861BFF186800C08AB9 /* Network */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		251D1D861BFF186800C08AB9 /* Network */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Storyboard;
+			path = Network;
 			sourceTree = "<group>";
 		};
-		251D1C9B1BFB0CEA00C08AB9 /* Cell */ = {
+		251D1D871BFF186800C08AB9 /* Requests */ = {
 			isa = PBXGroup;
 			children = (
+				251D1D881BFF186800C08AB9 /* GBMLoginRequest.h */,
+				251D1D891BFF186800C08AB9 /* GBMLoginRequest.m */,
 			);
-			name = Cell;
+			path = Requests;
 			sourceTree = "<group>";
 		};
-		251D1C9C1BFB0CFB00C08AB9 /* Picture */ = {
+		251D1D8A1BFF186800C08AB9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Picture;
-			sourceTree = "<group>";
-		};
-		251D1C9D1BFB0D0300C08AB9 /* Square */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Square;
-			sourceTree = "<group>";
-		};
-		251D1C9E1BFB0D0F00C08AB9 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D6A1BFF083D00C08AB9 /* YongUserModel.h */,
-				251D1D6B1BFF083D00C08AB9 /* YongUserModel.m */,
-			);
-			name = User;
-			sourceTree = "<group>";
-		};
-		251D1C9F1BFB0D2400C08AB9 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Network;
-			sourceTree = "<group>";
-		};
-		251D1D4A1BFB15CB00C08AB9 /* LoginAndRegister */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D4B1BFB161900C08AB9 /* LoginAndRegister.storyboard */,
-			);
-			name = LoginAndRegister;
-			sourceTree = "<group>";
-		};
-		251D1D501BFC6D4C00C08AB9 /* Requests */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D511BFC6D9500C08AB9 /* GBMLoginRequest.h */,
-				251D1D521BFC6D9500C08AB9 /* GBMLoginRequest.m */,
-			);
-			name = Requests;
-			sourceTree = "<group>";
-		};
-		251D1D541BFC6D9A00C08AB9 /* Parsers */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D671BFF07B200C08AB9 /* YongLoginParser.h */,
-				251D1D681BFF07B200C08AB9 /* YongLoginParser.m */,
-			);
-			name = Parsers;
-			sourceTree = "<group>";
-		};
-		251D1D551BFC6DA600C08AB9 /* Utilties */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D641BFDC98200C08AB9 /* BLMultipartForm.h */,
-				251D1D651BFDC98200C08AB9 /* BLMultipartForm.m */,
-			);
-			name = Utilties;
-			sourceTree = "<group>";
-		};
-		251D1D6D1BFF0F6E00C08AB9 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				251D1D6F1BFF0F6E00C08AB9 /* Main.xcassets */,
+				251D1D9E1BFF18DD00C08AB9 /* Main.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		251D1D8B1BFF186800C08AB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D8C1BFF186800C08AB9 /* Info.plist */,
+				251D1D8D1BFF186800C08AB9 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		251D1D8E1BFF186800C08AB9 /* Untities */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D8F1BFF186800C08AB9 /* BLMultipartForm.h */,
+				251D1D901BFF186800C08AB9 /* BLMultipartForm.m */,
+			);
+			path = Untities;
+			sourceTree = "<group>";
+		};
+		251D1D911BFF186800C08AB9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D921BFF186800C08AB9 /* Cell */,
+				251D1D931BFF186800C08AB9 /* LoginAndRegister */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		251D1D921BFF186800C08AB9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		251D1D931BFF186800C08AB9 /* LoginAndRegister */ = {
+			isa = PBXGroup;
+			children = (
+				251D1D941BFF186800C08AB9 /* LoginAndRegister.storyboard */,
+			);
+			path = LoginAndRegister;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,9 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251D1D4C1BFB161900C08AB9 /* LoginAndRegister.storyboard in Resources */,
-				251D1D711BFF0F6E00C08AB9 /* Main.xcassets in Resources */,
-				251D1D731BFF138700C08AB9 /* Default-568h@2x.png in Resources */,
+				251D1D9D1BFF186800C08AB9 /* LoginAndRegister.storyboard in Resources */,
+				251D1DA11BFF190700C08AB9 /* Default-568h@2x.png in Resources */,
+				251D1D9F1BFF18DD00C08AB9 /* Main.xcassets in Resources */,
+				251D1D9A1BFF186800C08AB9 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,15 +369,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251D1C721BFB0C2C00C08AB9 /* SecondViewController.m in Sources */,
-				251D1D6C1BFF083D00C08AB9 /* YongUserModel.m in Sources */,
-				251D1C6C1BFB0C2C00C08AB9 /* AppDelegate.m in Sources */,
-				251D1D531BFC6D9500C08AB9 /* GBMLoginRequest.m in Sources */,
-				251D1D661BFDC98200C08AB9 /* BLMultipartForm.m in Sources */,
-				251D1D4F1BFB18AE00C08AB9 /* GBMLoginViewController.m in Sources */,
-				251D1C6F1BFB0C2C00C08AB9 /* FirstViewController.m in Sources */,
-				251D1C691BFB0C2C00C08AB9 /* main.m in Sources */,
-				251D1D691BFF07B200C08AB9 /* YongLoginParser.m in Sources */,
+				251D1D951BFF186800C08AB9 /* AppDelegate.m in Sources */,
+				251D1D991BFF186800C08AB9 /* GBMLoginRequest.m in Sources */,
+				251D1D971BFF186800C08AB9 /* YongUserModel.m in Sources */,
+				251D1D9C1BFF186800C08AB9 /* BLMultipartForm.m in Sources */,
+				251D1D961BFF186800C08AB9 /* GBMLoginViewController.m in Sources */,
+				251D1D9B1BFF186800C08AB9 /* main.m in Sources */,
+				251D1D981BFF186800C08AB9 /* YongLoginParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,7 +482,7 @@
 		251D1C8A1BFB0C2C00C08AB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = GBMoran_ios/Info.plist;
+				INFOPLIST_FILE = "GBMoran_ios/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -533,7 +491,7 @@
 		251D1C8B1BFB0C2C00C08AB9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = GBMoran_ios/Info.plist;
+				INFOPLIST_FILE = "GBMoran_ios/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
